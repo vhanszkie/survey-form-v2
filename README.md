@@ -1,19 +1,10 @@
-# survey-form-assignment
+# survey-form
 
 # VERY IMPORTANT
-After you download this app, make sure you run **npm install** FIRST in your local machine to install the dependencies before you run any docker commands.
+Remember Docker? Docker holds containers and container can be seen as a computer inside your computer. The cool thing about this virtual computer is that you can send it to your friends. And when they start this computer and run your code, they will get exactly the same results as you did without worrying of any software and hardware requirements!
 
-Basic routes, views, and controller methods are provided. Make sure you build this app using TDD approach.
-**You must write the test first, have it failed, then write the necessary code for it to pass**
+This time, we will make the Github Actions use Docker environment (instead of the default environment that Github Actions uses) to build and run our test cases. 
 
-# Important
+All you need to do is clone this repository "survey-form" and try to figure out what’s wrong in .github/workflows/action.yml. Focus on this file only when you're debugging. 
 
-1. Build this app using MySQL to store survey form values instead of just using Session.
-2. Create the MySQL table, and necessary columns for this app. Use the hh database.
-3. Focus on testing the ​Models. ​You will learn how to test Controllers, and Routes in the later topics.
-
-
-# Instructions
-
-1. Make sure you work on this assignment in a docker container. The necessarily files to build and run this app in a docker container is already provided.
-2. Once done, you need to zip your app in one file and upload the zipped file in Hacker Hero.
+Good luck and have fun!
